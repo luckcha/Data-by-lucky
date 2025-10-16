@@ -1,10 +1,13 @@
+## To make Mobile Number in correct Indian format 
+
+
 import pandas as pd
 import re
 
 
 # 📂 Input & output file
-file_path = r"D:\Analyze Data\Hotel_Data\merged_output.csv"
-output_file = r"D:\Analyze Data\Hotel_Data\All_Hotel_Data.csv"
+file_path = r"" #Path of the file 
+output_file = r""  #Path where you want to store file
 
 
 def clean_number(num):
